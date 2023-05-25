@@ -165,7 +165,7 @@
           </form>
         </div>
       </div>
-      
+
       <!-- Register Link tab -->
       <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
         <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
@@ -190,8 +190,86 @@
           </div>
 
           <p class="text-center text-light-emphasis">or:</p>
-          
+           
+          <!-- name input -->
+          <div class="form-outline form-floating mb-4">
+            <input
+              type="name"
+              class="form-control"
+              id="floatingInput"
+              placeholder="Email or username"
+            />
+            <label for="floatingInput">Name</label>
+          </div>  
 
+          <!-- userName input -->
+          <div class="form-outline form-floating mb-4">
+            <input
+              type="username"
+              class="form-control"
+              id="floatingInput"
+              placeholder="username"
+            />
+            <label for="floatingInput">Username</label>
+          </div>
+
+          <!-- Email input -->
+          <div class="form-outline form-floating mb-4">
+            <input
+              type="email"
+              class="form-control"
+              id="floatingInput"
+              placeholder="Email or username"
+            />
+            <label for="floatingInput">Email</label>
+          </div>
+
+          <!-- Password input -->
+          <div class="form-outline form-floating mb-4">
+            <input
+              type="password"
+              class="form-control"
+              id="floatingInput"
+              placeholder="Password"
+            />
+            <label for="floatingInput">Password</label>
+          </div>
+          <!-- Repeat Password input -->
+          <div class="form-outline form-floating mb-4">
+            <input
+              type="password"
+              class="form-control"
+              id="floatingInput"
+              placeholder="Password"
+            />
+            <label for="floatingInput">Repeat Password</label>
+          </div>
+           
+           <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center">
+          <input
+            class="form-check-input bg-secondary me-2"
+            type="checkbox"
+            value=""
+            id="registerCheck"
+            checked
+          />
+          <label class="form-check-label" for="registerCheck"
+            >I have read and agree to terms and conditions</label
+          >
+        </div>  
+
+          <!-- Sign up button -->
+          <div class="d-flex justify-content-center">
+            <button
+              type="signup"
+              class="col-4 btn bg-primary-subtle btn-rounded mt-4"
+            >
+              Sign up
+            </button>
+          </div>
+        
+           
          </form>
         </div>
       </div>
